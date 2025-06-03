@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+}
+
+header h4 {
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+
+header .underscore {
+  background-color: #caab72;
+  margin-top: 20px;
+  width: 32px;
+  height: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  /* Styles for tablets */
+  header h4 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  /* Styles for mobiles */
+  header h4 {
+    font-size: 16px;
+  }
+}

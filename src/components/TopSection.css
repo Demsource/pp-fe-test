@@ -1,0 +1,190 @@
+/* Styling top section ts-top */
+section.top-section .ts-top {
+  background-image: url("/assets/sportsmen_1360x760.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 856px;
+}
+
+section.top-section .ts-top img {
+  position: absolute;
+  height: 36px;
+  top: 24px;
+  left: 24px;
+}
+
+section.top-section .ts-top .intro {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  bottom: 33px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+section.top-section .ts-top .intro h2 {
+  color: #caab72;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+section.top-section .ts-top .intro h4 {
+  color: white;
+  font-size: 24px;
+  line-height: 32px;
+  white-space: nowrap;
+}
+
+section.top-section .ts-top .intro button {
+  background-color: #caab72;
+  border: none;
+  cursor: pointer;
+  color: #222939;
+  font-size: 16px;
+  font-weight: 900;
+  border-radius: 60px;
+  margin: 24px 0;
+  padding: 20px 72px;
+  white-space: nowrap;
+  text-transform: uppercase;
+  transition: background-color 1s;
+}
+section.top-section .ts-top .intro button:hover {
+  background-color: #f0d9b0;
+}
+
+section.top-section .ts-top .intro p {
+  color: #a7a9b0;
+}
+
+@media screen and (max-width: 768px) {
+  /* Styles for tablets */
+  section.top-section .ts-top .intro h2 {
+    font-size: 32px;
+  }
+
+  section.top-section .ts-top .intro h4 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  /* Styles for mobiles */
+  section.top-section .ts-top {
+    background-image: url("/assets/sportsmen_350x600.svg");
+    background-size: cover;
+    margin-bottom: 200px;
+  }
+
+  section.top-section .ts-top img {
+    height: 24px;
+  }
+
+  section.top-section .ts-top .intro {
+    background-color: #222939;
+    bottom: -150px;
+    padding-bottom: 50px;
+    margin-bottom: -50px;
+  }
+
+  section.top-section .ts-top .intro h2 {
+    font-size: 24px;
+    white-space: normal;
+  }
+
+  section.top-section .ts-top .intro h4 {
+    font-size: 16px;
+  }
+
+  section.top-section .ts-top .intro h4:last-of-type {
+    white-space: normal;
+  }
+
+  section.top-section .ts-top .intro button {
+    font-size: 14px;
+  }
+
+  section.top-section .ts-top .intro p {
+    font-size: 12px;
+  }
+}
+/* End of Styling top section ts-top */
+
+/* Styling top section ts-bottom */
+section.top-section .ts-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1a202c;
+  padding: 28px 0;
+}
+
+section.top-section .ts-bottom .step {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+section.top-section .ts-bottom .step img {
+  width: 64px;
+}
+
+section.top-section .ts-bottom .step .step-info h5 {
+  color: #caab72;
+  font-size: 20px;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
+
+section.top-section .ts-bottom .step .step-info p {
+  color: #a7a9b0;
+  font-size: 14px;
+}
+
+section.top-section .ts-bottom img.arrow {
+  height: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  /* Styles for tablets */
+
+  section.top-section .ts-bottom .step img {
+    width: 48px;
+  }
+
+  section.top-section .ts-bottom .step .step-info h5 {
+    font-size: 16px;
+  }
+
+  section.top-section .ts-bottom .step .step-info p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  /* Styles for mobiles */
+  section.top-section .ts-bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  section.top-section .ts-bottom .step {
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: center;
+  }
+
+  section.top-section .ts-bottom img.arrow {
+    transform: rotate(90deg);
+  }
+}
+
+/* End of Styling top section ts-bottom */

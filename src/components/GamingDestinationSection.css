@@ -1,0 +1,23 @@
+section.gaming-destination-section {
+  margin-top: 40px;
+}
+
+section.gaming-destination-section .cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  /* Styles for tablets */
+  section.gaming-destination-section {
+    margin-top: 32px;
+  }
+}
+@media screen and (max-width: 375px) {
+  /* Styles for mobiles */
+  section.gaming-destination-section {
+    margin-top: 0px;
+  }
+}

@@ -1,0 +1,33 @@
+section.why-us {
+  margin-top: 64px;
+}
+
+section.why-us .wu-items {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 72px;
+}
+
+@media screen and (max-width: 768px) {
+  /* Styles for tablets */
+  section.why-us {
+    margin-top: 40px;
+  }
+
+  section.why-us .wu-items {
+    column-gap: 9px;
+    row-gap: 32px;
+  }
+
+  section.why-us .wu-items {
+    margin-bottom: 36px;
+  }
+}
+@media screen and (max-width: 375px) {
+  /* Styles for mobiles */
+  section.why-us {
+    margin-top: 32px;
+  }
+}

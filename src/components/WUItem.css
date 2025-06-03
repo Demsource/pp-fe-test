@@ -1,0 +1,27 @@
+.wu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 12px;
+}
+
+.wu-item img {
+  height: 160px;
+}
+
+.wu-item h6 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.wu-item p {
+  text-align: center;
+  width: 292px;
+}
+
+@media screen and (max-width: 768px) {
+  /* Styles for tablets */
+  .wu-item img {
+    height: 120px;
+  }
+}

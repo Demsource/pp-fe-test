@@ -1,0 +1,26 @@
+section.start-journey {
+  text-align: center;
+  padding: 24px;
+}
+
+section.start-journey p {
+  font-size: 14px;
+}
+
+section.start-journey h5 {
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  /* Styles for tablets */
+  section.start-journey {
+    padding: 16px;
+  }
+
+  section.start-journey h5 {
+    font-size: 16px;
+  }
+}

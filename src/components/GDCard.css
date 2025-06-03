@@ -1,0 +1,49 @@
+.card {
+  position: relative;
+}
+
+.card img {
+  width: 648px;
+}
+
+.card button {
+  position: absolute;
+  background-color: #caab72;
+  border: none;
+  cursor: pointer;
+  color: #222939;
+  font-size: 14px;
+  font-weight: 900;
+  border-radius: 60px;
+  padding: 16px 32px;
+  white-space: nowrap;
+  text-transform: uppercase;
+  transition: background-color 1s;
+  bottom: 24px;
+  left: 32px;
+}
+.card button:hover {
+  background-color: #f0d9b0;
+}
+
+@media screen and (max-width: 768px) {
+  /* Styles for tablets */
+  .card img {
+    width: 364px;
+  }
+
+  .card button {
+    font-size: 12px;
+    padding: 14px 28px;
+  }
+}
+@media screen and (max-width: 375px) {
+  /* Styles for mobiles */
+  .card img {
+    width: 343px;
+  }
+  .card button {
+    font-size: 10px;
+    padding: 12px 24px;
+  }
+}
