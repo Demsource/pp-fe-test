@@ -8,7 +8,7 @@ const WhyUsSection = () => {
       <SectionHeader title={"Why choose us?"} />
       <div className="wu-items">
         <WUItem
-          imageUrl={"/assets/why-us/Feature 1.png"}
+          imageUrl={"/pp-fe-test/assets/why-us/Feature 1.png"}
           imageAlt={"Secure Feature 1"}
           title={"safe & secure gaming"}
           desc={
@@ -16,7 +16,7 @@ const WhyUsSection = () => {
           }
         />
         <WUItem
-          imageUrl={"/assets/why-us/Feature 2.png"}
+          imageUrl={"/pp-fe-test/assets/why-us/Feature 2.png"}
           imageAlt={"Feature 2"}
           title={"variety of games"}
           desc={
@@ -24,7 +24,7 @@ const WhyUsSection = () => {
           }
         />
         <WUItem
-          imageUrl={"/assets/why-us/Feature 3.png"}
+          imageUrl={"/pp-fe-test/assets/why-us/Feature 3.png"}
           imageAlt={"Feature 3"}
           title={"fast & better experience"}
           desc={
@@ -32,7 +32,7 @@ const WhyUsSection = () => {
           }
         />
         <WUItem
-          imageUrl={"/assets/why-us/Feature 4.png"}
+          imageUrl={"/pp-fe-test/assets/why-us/Feature 4.png"}
           imageAlt={"Feature 4"}
           title={"improved look & feel"}
           desc={

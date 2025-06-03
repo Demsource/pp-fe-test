@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="f-middle-wrap">
           <div className="logo-wrapper logo-colorful">
             <img
-              src="/assets/footer/icon-1.svg"
+              src="/pp-fe-test/assets/footer/icon-1.svg"
               alt="Logo 1"
               className="logo"
             />
@@ -24,7 +24,7 @@ const Footer = () => {
           <div className="non-colorful-logos">
             <div className="logo-wrapper">
               <img
-                src="/assets/footer/icon-2.svg"
+                src="/pp-fe-test/assets/footer/icon-2.svg"
                 alt="Logo 2"
                 className="logo"
               />
@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
             <div className="logo-wrapper">
               <img
-                src="/assets/footer/icon-3.svg"
+                src="/pp-fe-test/assets/footer/icon-3.svg"
                 alt="Logo 3"
                 className="logo"
               />
@@ -46,7 +46,7 @@ const Footer = () => {
             </div>
             <div className="logo-wrapper">
               <img
-                src="/assets/footer/icon-4.svg"
+                src="/pp-fe-test/assets/footer/icon-4.svg"
                 alt="Logo 4"
                 className="logo"
               />
@@ -57,7 +57,7 @@ const Footer = () => {
             </div>
             <div className="logo-wrapper">
               <img
-                src="/assets/footer/icon-5.svg"
+                src="/pp-fe-test/assets/footer/icon-5.svg"
                 alt="Logo 5"
                 className="logo"
               />
@@ -75,10 +75,10 @@ const Footer = () => {
             We are committed to supporting <a href="#">Responsible Gambling</a>
           </p>
           <div className="logos">
-            <img src="/assets/footer/logo-1.svg" alt="Logo 1" />
-            <img src="/assets/footer/logo-2.svg" alt="Logo 2" />
-            <img src="/assets/footer/logo-3.svg" alt="Logo 3" />
-            <img src="/assets/footer/logo-4.svg" alt="Logo 4" />
+            <img src="/pp-fe-test/assets/footer/logo-1.svg" alt="Logo 1" />
+            <img src="/pp-fe-test/assets/footer/logo-2.svg" alt="Logo 2" />
+            <img src="/pp-fe-test/assets/footer/logo-3.svg" alt="Logo 3" />
+            <img src="/pp-fe-test/assets/footer/logo-4.svg" alt="Logo 4" />
             <p>LoremLogo.com 2025</p>
           </div>
         </div>

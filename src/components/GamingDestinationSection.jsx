@@ -8,19 +8,19 @@ const GamingDestinationSection = () => {
       <SectionHeader title={"YOUR GAMING DESTINATION"} />
       <div className="cards">
         <GDCard
-          imageUrl={"/assets/CARD-Sports-1.svg"}
+          imageUrl={"/pp-fe-test/assets/CARD-Sports-1.svg"}
           imageAlt={"Card sports"}
         />
         <GDCard
-          imageUrl={"/assets/CARD-Live-Casino-2.svg"}
+          imageUrl={"/pp-fe-test/assets/CARD-Live-Casino-2.svg"}
           imageAlt={"Live casino"}
         />
         <GDCard
-          imageUrl={"/assets/CARD-Casino-Fishing-3.svg"}
+          imageUrl={"/pp-fe-test/assets/CARD-Casino-Fishing-3.svg"}
           imageAlt={"Card sports"}
         />
         <GDCard
-          imageUrl={"/assets/CARD-Keno-Lotto-4.svg"}
+          imageUrl={"/pp-fe-test/assets/CARD-Keno-Lotto-4.svg"}
           imageAlt={"Card sports"}
         />
       </div>
